@@ -11,7 +11,7 @@ eval "$($(dirname $0)/adr-config)"
 ## file name of the ADR is output to stdout, so the command can be used in
 ## scripts.
 ##
-## If the ADR directory contains a file `templates/template.md`, this is used as
+## If the ADR directory contains a file `templates/template.adoc`, this is used as
 ## the template for the new ADR.  Otherwise a default template is used that
 ## follows the style described by Michael Nygard in this article:
 ##
@@ -76,10 +76,10 @@ dstdir=$("$adr_bin_dir/_adr_dir")
 template="$ADR_TEMPLATE"
 if [ -z $template ]
 then
-    template="$dstdir/templates/template.md"
+    template="$dstdir/templates/template.adoc"
     if [ ! -f "$template" ]
     then
-        template="$adr_template_dir/template.md"
+        template="$adr_template_dir/template.adoc"
     fi
 fi
 
@@ -101,7 +101,7 @@ fi
 
 newid=$(printf "%04d" $newnum)
 slug=$(echo -n $title | tr -Ccs [:alnum:] - | tr [:upper:] [:lower:] | sed -e 's/[^[:alnum:]]*$//' -e 's/^[^[:alnum:]]*//')
-dstfile=$dstdir/$newid-$slug.md
+dstfile=$dstdir/$newid-$slug.adoc
 date=${ADR_DATE:-$(date +%Y-%m-%d)}
 
 mkdir -p $dstdir

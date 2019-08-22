@@ -1,28 +1,28 @@
 adr new First Record
-doc/adr/0001-first-record.md
+doc/adr/0001-first-record.adoc
 adr new Second Record
-doc/adr/0002-second-record.md
+doc/adr/0002-second-record.adoc
 adr new -s 1 -s 2 Third Record
-doc/adr/0003-third-record.md
-head -8 doc/adr/0001-first-record.md
+doc/adr/0003-third-record.adoc
+head -8 doc/adr/0001-first-record.adoc
 # 1. First Record
 
 Date: 1992-01-12
 
 ## Status
 
-Superceded by [3. Third Record](0003-third-record.md)
+Superceded by [3. Third Record](0003-third-record.adoc)
 
-head -8 doc/adr/0002-second-record.md
+head -8 doc/adr/0002-second-record.adoc
 # 2. Second Record
 
 Date: 1992-01-12
 
 ## Status
 
-Superceded by [3. Third Record](0003-third-record.md)
+Superceded by [3. Third Record](0003-third-record.adoc)
 
-head -12 doc/adr/0003-third-record.md
+head -12 doc/adr/0003-third-record.adoc
 # 3. Third Record
 
 Date: 1992-01-12
@@ -31,7 +31,7 @@ Date: 1992-01-12
 
 Accepted
 
-Supercedes [1. First Record](0001-first-record.md)
+Supercedes [1. First Record](0001-first-record.adoc)
 
-Supercedes [2. Second Record](0002-second-record.md)
+Supercedes [2. Second Record](0002-second-record.adoc)
 

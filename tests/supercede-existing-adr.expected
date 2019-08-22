@@ -1,19 +1,19 @@
 adr new First Record
-doc/adr/0001-first-record.md
+doc/adr/0001-first-record.adoc
 adr new -s 1 Second Record
-doc/adr/0002-second-record.md
-head -10 doc/adr/0001-first-record.md
+doc/adr/0002-second-record.adoc
+head -10 doc/adr/0001-first-record.adoc
 # 1. First Record
 
 Date: 1992-01-12
 
 ## Status
 
-Superceded by [2. Second Record](0002-second-record.md)
+Superceded by [2. Second Record](0002-second-record.adoc)
 
 ## Context
 
-head -12 doc/adr/0002-second-record.md
+head -12 doc/adr/0002-second-record.adoc
 # 2. Second Record
 
 Date: 1992-01-12
@@ -22,7 +22,7 @@ Date: 1992-01-12
 
 Accepted
 
-Supercedes [1. First Record](0001-first-record.md)
+Supercedes [1. First Record](0001-first-record.adoc)
 
 ## Context
 

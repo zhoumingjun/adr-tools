@@ -18,5 +18,5 @@ then
     echo "$1" > .adr-dir
 fi
 
-VISUAL=true ADR_TEMPLATE="$adr_template_dir/init.md" \
+VISUAL=true ADR_TEMPLATE="$adr_template_dir/init.adoc" \
       "$adr_bin_dir/adr-new" record-architecture-decisions
