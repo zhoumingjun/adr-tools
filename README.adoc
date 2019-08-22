@@ -1,10 +1,17 @@
 == Introduction
+
+This is a fork of the original repo.
+new features:
+* support adoc
+* support oh-my-zsh plugin mechanism
+
+== howto
 [source,bash]
 --
 files=($(find ./ -type f -name '*.md'))
 for item in ${files[*]}
 do
-  printf "   %s\n" $item
+    printf "   %s\n" $item
     pandoc $item --atx-headers --verbose --reference-links -t asciidoc -o ${item/.md/.adoc}
     rm $item
 done
