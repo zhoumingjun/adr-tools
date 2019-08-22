@@ -25,7 +25,7 @@ A command-line tool for working with a log of
 http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions[Architecture
 Decision Records] (ADRs).
 
-https://travis-ci.org/npryce/adr-tools[image:https://travis-ci.org/npryce/adr-tools.svg?branch=master[Build
+https://travis-ci.org/zhoumingjun/adr-tools[image:https://travis-ci.org/zhoumingjun/adr-tools.svg?branch=master[Build
 Status]]
 
 === Quick Start
