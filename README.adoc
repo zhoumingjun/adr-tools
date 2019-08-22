@@ -1,7 +1,9 @@
 == Introduction
 
 This is a fork of the original repo.
-new features:
+
+.new features
+
 * support adoc
 * support oh-my-zsh plugin mechanism
 
